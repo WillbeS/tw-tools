@@ -53,9 +53,8 @@ export function MapDisplay({
           <div className="text-center">
             <MapIcon className="h-16 w-16 text-slate-600 mx-auto mb-4" />
             <p className="text-slate-400">
-              {
-                'Select a world and map type, then click "Generate Map" to display the visualization.'
-              }
+              Select a world and map type, then click &quot;Generate Map&quot;
+              to display the visualization.
             </p>
           </div>
         )}
