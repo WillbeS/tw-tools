@@ -19,6 +19,7 @@ export function CopyInput({ label, value, className }: CopyInputProps) {
       setTimeout(() => setCopied(false), 2000);
     } catch (err) {
       // Fallback for older browsers
+      console.log(err);
       const textArea = document.createElement("textarea");
       textArea.value = value;
       document.body.appendChild(textArea);

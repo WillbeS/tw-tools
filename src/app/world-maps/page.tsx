@@ -20,7 +20,6 @@ export default function WorldMapsPage() {
     setSelectedWorld,
     setSelectedMapType,
     generateMap,
-    downloadMap,
   } = useWorldMaps();
 
   return (
@@ -52,7 +51,6 @@ export default function WorldMapsPage() {
               selectedMapType={selectedMapType}
               worlds={worlds}
               mapTypes={mapTypes}
-              onDownload={downloadMap}
             />
           </div>
         </div>

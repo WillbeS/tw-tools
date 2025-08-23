@@ -36,7 +36,7 @@ export function useWorldMaps(): UseWorldMapsReturn {
       try {
         // Replace with your actual Symfony API endpoint for worlds
         console.log("Fetching worlds from API...");
-        const response = await fetch(`${API_BASE_URL}/worlds`, {
+        const response = await fetch(`${API_BASE_URL}/api/worlds`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
@@ -84,7 +84,7 @@ export function useWorldMaps(): UseWorldMapsReturn {
     try {
       // Replace with your actual Symfony API endpoint
       const response = await fetch(
-        `${API_BASE_URL}/maps/${selectedWorld}/${selectedMapType}`,
+        `${API_BASE_URL}/api/maps/${selectedWorld}/${selectedMapType}`,
         {
           method: "GET",
           headers: {
