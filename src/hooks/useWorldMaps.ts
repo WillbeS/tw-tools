@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import { World } from "@/lib/types";
+import { getLatestWorld } from "@/lib/world-utils";
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
 
@@ -55,7 +56,7 @@ export function useWorldMaps(): UseWorldMapsReturn {
         setWorlds(worldsData);
 
         // Auto-select first active world if available
-        const firstActiveWorld = worldsData[0];
+        const firstActiveWorld = getLatestWorld(worldsData);
         if (firstActiveWorld) {
           setSelectedWorld(firstActiveWorld.id);
         }
