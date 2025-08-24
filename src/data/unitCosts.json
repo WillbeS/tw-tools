@@ -1,0 +1,119 @@
+{
+  "Spear fighter": {
+    "costs": { "wood": 50, "clay": 30, "iron": 10 },
+    "Offensive strength": 10,
+    "General defense": 15,
+    "Cavalry Defense": 45,
+    "Archer Defense": 20,
+    "population": 1,
+    "speed": 18
+  },
+  "Swordsman": {
+    "costs": { "wood": 30, "clay": 30, "iron": 70 },
+    "Offensive strength": 25,
+    "General defense": 50,
+    "Cavalry Defense": 15,
+    "Archer Defense": 40,
+    "population": 1,
+    "speed": 22
+  },
+  "Axeman": {
+    "costs": { "wood": 60, "clay": 30, "iron": 40 },
+    "Offensive strength": 40,
+    "General defense": 10,
+    "Cavalry Defense": 5,
+    "Archer Defense": 10,
+    "population": 1,
+    "speed": 18
+  },
+  "Archer": {
+    "costs": { "wood": 100, "clay": 30, "iron": 60 },
+    "Offensive strength": 15,
+    "General defense": 50,
+    "Cavalry Defense": 40,
+    "Archer Defense": 5,
+    "population": 1,
+    "speed": 18
+  },
+  "Scout": {
+    "costs": { "wood": 50, "clay": 50, "iron": 20 },
+    "Offensive strength": 0,
+    "General defense": 2,
+    "Cavalry Defense": 1,
+    "Archer Defense": 2,
+    "population": 2,
+    "speed": 9
+  },
+  "Light cavalry": {
+    "costs": { "wood": 125, "clay": 100, "iron": 250 },
+    "Offensive strength": 130,
+    "General defense": 30,
+    "Cavalry Defense": 40,
+    "Archer Defense": 30,
+    "population": 4,
+    "speed": 10
+  },
+  "Mounted archer": {
+    "costs": { "wood": 250, "clay": 100, "iron": 150 },
+    "Offensive strength": 120,
+    "General defense": 40,
+    "Cavalry Defense": 30,
+    "Archer Defense": 50,
+    "population": 5,
+    "speed": 10
+  },
+  "Heavy cavalry": {
+    "costs": { "wood": 200, "clay": 150, "iron": 600 },
+    "Offensive strength": 150,
+    "General defense": 200,
+    "Cavalry Defense": 80,
+    "Archer Defense": 180,
+    "population": 6,
+    "speed": 11
+  },
+  "Ram": {
+    "costs": { "wood": 300, "clay": 200, "iron": 200 },
+    "Offensive strength": 2,
+    "General defense": 20,
+    "Cavalry Defense": 50,
+    "Archer Defense": 20,
+    "population": 5,
+    "speed": 30
+  },
+  "Catapult": {
+    "costs": { "wood": 320, "clay": 400, "iron": 100 },
+    "Offensive strength": 100,
+    "General defense": 100,
+    "Cavalry Defense": 50,
+    "Archer Defense": 100,
+    "population": 8,
+    "speed": 30
+  },
+  "Paladin": {
+    "costs": { "wood": 20, "clay": 20, "iron": 40 },
+    "Offensive strength": 150,
+    "General defense": 250,
+    "Cavalry Defense": 400,
+    "Archer Defense": 150,
+    "population": 10,
+    "speed": 10
+  },
+  "Nobleman": {
+    "costs": { "wood": 40000, "clay": 50000, "iron": 50000 },
+    "Offensive strength": 30,
+    "General defense": 100,
+    "Cavalry Defense": 50,
+    "Archer Defense": 100,
+    "population": 100,
+    "speed": 35
+  },
+  "Militia": {
+    "costs": { "wood": 0, "clay": 0, "iron": 0 },
+    "Offensive strength": 5,
+    "General defense": 15,
+    "Cavalry Defense": 45,
+    "Archer Defense": 25,
+    "population": 0,
+    "speed": 0.02
+  }
+}

@@ -40,3 +40,34 @@ export interface MapState {
   error: string | null;
   copied: boolean;
 }
+
+// Cost Calculator Types
+export type Resource = "wood" | "clay" | "iron";
+
+export type Resources = Record<Resource, number>;
+
+export type BuildingCostsData = Record<
+  string,
+  {
+    costsPerLevel: Resources[];
+  }
+>;
+
+export type UnitCostsData = Record<
+  string,
+  {
+    costs: Resources;
+  }
+>;
+
+export interface CostRecord {
+  id: string;
+  name: string;
+  resources: Resources;
+  reduced: boolean;
+}
+
+export interface BuildingCostRecord extends CostRecord {
+  minLevel: number;
+  maxLevel: number;
+}
