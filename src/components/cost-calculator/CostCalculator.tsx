@@ -1,6 +1,7 @@
 import { TabMenu } from "@/components/common/TabMenu";
 
 import { BuildingCosts } from "./BuildingCosts";
+import { UnitCosts } from "./UnitCosts";
 
 export default function CostCalculator() {
   return (
@@ -14,7 +15,7 @@ export default function CostCalculator() {
       >
         {{
           buildings: <BuildingCosts />,
-          units: <div>Todo UnitCosts</div>,
+          units: <UnitCosts />,
         }}
       </TabMenu>
     </>
