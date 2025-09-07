@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/Input";
 import { Select } from "@/components/ui/Select";
 import { Button } from "@/components/ui/Button";
 import { Checkbox } from "@/components/ui/Checkbox";
+import { formatNumber } from "@/lib/format";
 
 const UNIT_COSTS = rawData as UnitCostsData;
 
@@ -34,7 +35,7 @@ export const UnitCostForm = ({
 
     const record: CostRecord = {
       id: randomId(),
-      name: `${unit} (${amount})`,
+      name: `${unit} (${formatNumber(amount)})`,
       resources,
       reduced: isReducedCost,
     };

@@ -20,8 +20,6 @@ export const CostRecords = ({ records, remove }: Props) => {
     totals.iron += record.resources.iron;
   });
 
-  console.log("CostRecords component - testing how often it renders");
-
   return (
     <>
       <TotalCost
