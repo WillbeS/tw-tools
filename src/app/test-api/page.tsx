@@ -12,6 +12,8 @@ export default function TestApiPage() {
   const [data, setData] = useState<null | Village>(null);
   const [loading, setLoading] = useState(true);
 
+  console.log(`${API_BASE_URL}/api/test-data`);
+
   useEffect(() => {
     // Change this URL if your Flask API runs elsewhere
     fetch(`${API_BASE_URL}/api/test-data`)
